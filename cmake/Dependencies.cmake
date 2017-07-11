@@ -32,6 +32,8 @@ add_dependency(
   Qt5::Widgets
   Qt5::Xml)
 
+#clarkkuang:for searching for libqrencode,uncomment following line if libqrencode not found
+#include_directories(${CMAKE_SOURCE_DIR}/libs/lib/pkgconfig) 
 include(CMakeParseArguments)
 include(Qt5CorePatches)
 

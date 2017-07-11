@@ -54,3 +54,31 @@ target/
 
 # Tarballs
 *.tar.*
+*.vcxproj
+*.filters
+CMakeFiles
+/CMakeCache.txt
+/CTestTestfile.cmake
+/qtox.VC.db
+*.sln
+/qtox.dir
+/qtox_autogen
+/qtox_static.dir
+/qtox_static_autogen
+/test_toxpk_autogen
+/test_textformatter.dir
+/test_textformatter_autogen
+/test_toxid.dir
+/test_toxid_autogen
+/test_toxpk.dir
+/null
+/DartConfiguration.tcl
+/Win32
+/cmake_install.cmake
+/qtox.VC.VC.opendb
+/res.qrc.depends
+/smileys/smileys.qrc.depends
+/smileys/emojione.qrc.depends
+/translations.qrc
+/translations.qrc.in
+/windows/build.bat

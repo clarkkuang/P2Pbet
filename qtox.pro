@@ -107,6 +107,10 @@ contains(JENKINS,YES) {
 } else {
     INCLUDEPATH += libs/include
 }
+#clarkkuang:uncomment following lines,if inlude files missing
+#INCLUDEPATH += D:/Qt/Tools/mingw530_32/i686-w64-mingw32/include
+#INCLUDEPATH += D:/MinGW/msys/1.0/include
+#INCLUDEPATH += D:/MinGW/msys/1.0/local/include
 
 contains(DEFINES, QTOX_PLATFORM_EXT) {
     HEADERS += src/platform/timer.h

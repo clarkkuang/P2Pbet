@@ -5,6 +5,8 @@
 ################################################################################
 
 cmake_minimum_required(VERSION 2.8.11)
+#clarkkuang
+#set(CMAKE_PREFIX_PATH "D:\\Qt\\5.9\\winrt_x86_msvc2017")
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 if(NOT CMAKE_BUILD_TYPE)
